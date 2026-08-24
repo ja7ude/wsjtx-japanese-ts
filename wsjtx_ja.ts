@@ -393,7 +393,7 @@
     <message>
         <location filename="../widgets/CabrilloLogWindow.ui" line="20"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Right-click here for available actions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ここを右クリックし次の操作を選択&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ここを右クリックし次の操作を選択.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../widgets/CabrilloLogWindow.ui" line="23"/>
@@ -3932,7 +3932,7 @@ ENTERを押してテキストを登録リストに追加.
     <message>
         <location filename="../widgets/mainwindow.ui" line="1046"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Toggle Wait &amp;amp; Call On/Off. Right-click to clear the DX Call box.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Toggle Wait &amp;amp; Call On/Off. 右クリックで DX Call boxクリア.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wait &amp;amp; Call On/Offの切り替え. 右クリックで DX Call boxクリア.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../widgets/mainwindow.ui" line="1221"/>
@@ -3962,7 +3962,7 @@ ENTERを押してテキストを登録リストに追加.
     <message>
         <location filename="../widgets/mainwindow.ui" line="1634"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: None&lt;/span&gt; to choose callers manually.&lt;/p&gt;&lt;p&gt;Select &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: First&lt;/span&gt; to respond automatically to the first decoded reply to your CQ. &lt;/p&gt;&lt;p&gt;Select &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: Max Dist&lt;/span&gt; to respond automatically to the reply yielding most points in the ARRL International Digital Contest, or in general to the most distant station, if its message has a valid grid.&lt;/p&gt;&lt;p&gt;Select &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: Max dB&lt;/span&gt; to respond automatically to the the strongest station&apos;s reply to your CQ. &lt;/p&gt;&lt;p&gt;Select &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: Min dB&lt;/span&gt; to respond automatically to the the weakest station&apos;s reply to your CQ. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: None&lt;/span&gt; 相手局手動選択.&lt;/p&gt;&lt;p&gt;Select &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: First&lt;/span&gt; CQに応答してきて最初にデコードできた局へ自動応答. &lt;/p&gt;&lt;p&gt;Select &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: Max Dist&lt;/span&gt;  ARRL International Digital Contestで一番得点の高い曲に自動応答, または、最も遠くのグリッドロケータをもった局.&lt;/p&gt;&lt;p&gt;Select &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: Max dB&lt;/span&gt; CQに応答してきた最も強い局へ自動応答. &lt;/p&gt;&lt;p&gt;Select &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: Min dB&lt;/span&gt; CQに応答してきた最も弱い局へ自動応答. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: None&lt;/span&gt; 相手局手動選択.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: First&lt;/span&gt; CQに応答してきて最初にデコードできた局へ自動応答. &lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: Max Dist&lt;/span&gt;  ARRL International Digital Contestで一番得点の高い局に自動応答, または、最も遠くのグリッドロケータをもった局.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: Max dB&lt;/span&gt; CQに応答してきた最も強い局へ自動応答. &lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:600;&quot;&gt;CQ: Min dB&lt;/span&gt; CQに応答してきた最も弱い局へ自動応答. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../widgets/mainwindow.ui" line="1670"/>
@@ -4520,12 +4520,12 @@ ENTERを押してテキストを登録リストに追加.
     <message>
         <location filename="../widgets/mainwindow.ui" line="4050"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;6 digit locators cause 2 different messages to be sent, the second contains the full locator but only a hashed callsign, other stations must have decoded the first once before they can decode your call in the second. Check this option to only send 4 digit locators if it will avoid the two message protocol.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;6桁のグリッドロケーターは2回のメッセージで送られます, 2回目のメッセージで6桁全部送られますが、コールサインはハッシュになります, 相手局は1回目であなたのコールサインをコピーしていなければなりません.. このオプションをチェックすると4桁のグリッドロケーターしか送らず、6桁のグリッドロケーターを送るための2回のメッセージ送信は行いません.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;6桁のグリッドロケーターは2回のメッセージで送られます, 2回目のメッセージで6桁全部送られますが、コールサインはハッシュになります, 相手局は1回目であなたのコールサインをコピーしていなければなりません. このオプションをチェックすると4桁のグリッドロケーターしか送らず、6桁のグリッドロケーターを送るための2回のメッセージ送信は行いません.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../widgets/mainwindow.ui" line="4053"/>
         <source>6 digit locators cause 2 different messages to be sent, the second contains the full locator but only a hashed callsign, other stations must have decoded the first once before they can decode your call in the second. Check this option to only send 4 digit locators if it will avoid the two message protocol.</source>
-        <translation>6桁のグリッドロケーターは2回のメッセージで送られます, 2回目のメッセージで6桁全部送られますが、コールサインはハッシュになります, 相手局は1回目であなたのコールサインをコピーしていなければなりません.. このオプションをチェックすると4桁のグリッドロケーターしか送らず、6桁のグリッドロケーターを送るための2回のメッセージ送信は行いません.</translation>
+        <translation>6桁のグリッドロケーターは2回のメッセージで送られます, 2回目のメッセージで6桁全部送られますが、コールサインはハッシュになります, 相手局は1回目であなたのコールサインをコピーしていなければなりません. このオプションをチェックすると4桁のグリッドロケーターしか送らず、6桁のグリッドロケーターを送るための2回のメッセージ送信は行いません.</translation>
     </message>
     <message>
         <location filename="../widgets/mainwindow.ui" line="5460"/>
@@ -8933,7 +8933,7 @@ other hardware interface for PTT.</source>
     <message>
         <location filename="../Configuration.ui" line="1438"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select the RS-232 serial port utilised for PTT control, this option is available when DTR or RTS is selected above as a transmit method.&lt;/p&gt;&lt;p&gt;This port can be the same one as the one used for CAT control.&lt;/p&gt;&lt;p&gt;For some interface types the special value CAT may be chosen, this is used for non-serial CAT interfaces that can control serial port control lines remotely (OmniRig for example).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;PTT制御に使うシリアルポートを選択. このオプションはDTRまたはRTSでPTTを制御する場合に有効となります.&lt;/p&gt;&lt;p&gt;CAT制御のシリアルポートと同じポートでも構いません.&lt;/p&gt;&lt;p&gt;いくつかの特殊なインターフェイスでは特別なCATを選択します。そればリモートコントロールに使われたりします（例：OmniRig）.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;PTT制御に使うシリアルポートを選択. このオプションはDTRまたはRTSでPTTを制御する場合に有効となります.&lt;/p&gt;&lt;p&gt;CAT制御のシリアルポートと同じポートでも構いません.&lt;/p&gt;&lt;p&gt;いくつかの特殊なインターフェイスでは特別なCATを選択します。シリアル通信ではないCATインターフェイスに使われ、シリアルポートを遠隔制御します（例：OmniRig）.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../Configuration.ui" line="797"/>
@@ -9118,7 +9118,7 @@ transmitting periods.</source>
     <message>
         <location filename="../Configuration.ui" line="2444"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sets the number or router hops that multicast datagrams are allowed to make. Almost everyone should set this to 1 to keep outgoing multicast traffic withn the local subnet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;マルチキャストパケットを配信するホップ数を設定.、マルチキャストパケットがローカルサブネット内だけに配信されるように、ほとんどのケースでここは1を設定すればよいでしょう.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;マルチキャストパケットを配信するホップ数を設定. マルチキャストパケットがローカルサブネット内だけに配信されるように、ほとんどの場合ここは1を設定すればよいでしょう.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../Configuration.ui" line="2434"/>
@@ -9516,7 +9516,7 @@ and DX Grid fields when a 73 or free text message is sent.</source>
     <message>
         <location filename="../Configuration.ui" line="2272"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check to have QSOs logged automatically, when complete.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ここをチェックするとQSOが終了次第自動的にログに追加.されます.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ここをチェックするとQSOが終了次第自動的にログに追加されます.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Log automatically (contesting only)</source>
@@ -10170,7 +10170,7 @@ Right click for insert and delete options.</source>
     <message>
         <location filename="../Configuration.ui" line="3351"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ARRL International Digital Contest&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ARRL インターナショナルデジタルコンテスト&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../Configuration.ui" line="3354"/>
@@ -10720,7 +10720,7 @@ Right click for insert and delete options.</source>
     <message>
         <location filename="../wf_palette_design_dialog.ui" line="23"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Double click a color to edit it.&lt;/p&gt;&lt;p&gt;Right click to insert or delete colors.&lt;/p&gt;&lt;p&gt;Colors at the top represent weak signals&lt;/p&gt;&lt;p&gt;and colors at the bottom represent strong&lt;/p&gt;&lt;p&gt;signals. You can have up to 256 colors.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ダブルクリックで色変更.&lt;/p&gt;&lt;p&gt;右クリックで色の追加または削除.&lt;/p&gt;&lt;p&gt;上の方の色は弱い信号を表します&lt;/p&gt;&lt;p&gt;そして下の方の色は強い信号を表します&lt;/p&gt;&lt;p&gt;信号. 256色まで使用可能.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ダブルクリックで色変更.&lt;/p&gt;&lt;p&gt;右クリックで色の追加または削除.&lt;/p&gt;&lt;p&gt;上の方の色は弱い信号を表します&lt;/p&gt;&lt;p&gt;そして下の方の色は強い信号を表します.&lt;/p&gt;&lt;p&gt;256色まで使用可能.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 </TS>
